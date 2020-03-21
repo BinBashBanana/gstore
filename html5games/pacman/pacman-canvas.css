@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: 400;
   src: url('fonts/PressStart2Play.eot');
-  src: url('fonts/PressStart2Play86d7.eot?iefix') format('eot'),
+  src: url('fonts/PressStart2Play.eot?iefix') format('eot'),
        url('fonts/PressStart2Play.woff') format('woff'),
        url('fonts/PressStart2Play.ttf') format('truetype');
 }
