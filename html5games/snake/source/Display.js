@@ -1,4 +1,4 @@
-class Display{constructor(){this.display="mainScreen";this.container=document.querySelector("#container");this.header=document.querySelector(".messages h2");this.paragraph=document.querySelector(".messages p");this.messages={mainScreen:["Snake","Select a level"],paused:["Pause","Continue the game?"],continuing:["Continue","Continue the game?"],gameOver:["GameOver","Write your name"],highScores:["HighScores","Select a level"],help:["Help","Game controlls"]};}
+class Display{constructor(){this.display="mainScreen";this.container=document.querySelector("#container");this.header=document.querySelector(".messages h2");this.paragraph=document.querySelector(".messages p");this.messages={mainScreen:["Snake","Select a level"],paused:["Pause","Continue the game?"],continuing:["Continue","Continue the game?"],gameOver:["Game Over","Write your name"],highScores:["HighScores","Select a level"],help:["Help","Game controlls"]};}
 get(){return this.display;}
 set(display){this.display=display;return this;}
 setClass(){this.container.className=this.display;}
